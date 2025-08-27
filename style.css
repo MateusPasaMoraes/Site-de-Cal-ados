@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #29304b;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e72e2e;
+}
+
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: #f1aa6f;
+}
+
+nav a.active {
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    background: linear-gradient(90deg, #d3dae0 50%, #032539 50%);
+
+    overflow: visible;
+    min-height: 100vh;
+}
+
+
+.container-text h2 {
+    font-size: 40px;
+    color: #ff6600;
+}
+
+.container-text .highlight {
+    color: #b30000;
+    font-weight: bold;
+}
+
+.container-text p {
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.detalhes ul {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.detalhes li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    background: #ff3333;
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.5s ease;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    background: #cc0000;
+}
+
+
+.container-image img {
+    max-width: 400px;
+}
+
+
+/* Catalogo.html :) */
+
+.catalogo {
+    padding: 40px;
+    text-align: center;
+}
+
+.catalogo h1 {
+    font-size: 32px;
+    margin-bottom: 60px;
+    color: #fc0909;
+}
+
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 300px;
+    justify-content: center;
+}
+
+.produto {
+    flex: 220px;
+    max-width: 280px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+.produto img {
+    max-width: 180px;
+    margin-bottom: 15px;
+}
+
+
+/* CSS das páginas sem nada: */
+
+.sempg {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+}
