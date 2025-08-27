@@ -1,4 +1,4 @@
-# Site-de-Cal-ados
+# Site-de-Calçados
 
 ## Tema
 Este site é um catálogo interativo de calçados, com foco em uma experiência visual agradável e navegação intuitiva. O objetivo é permitir que o usuário explore diferentes modelos e cores de tênis de forma simples.
