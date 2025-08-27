@@ -46,8 +46,6 @@ nav a.active {
     align-items: center;
     padding: 50px 40px;
     background: linear-gradient(90deg, #d3dae0 50%, #032539 50%);
-
-    overflow: visible;
     min-height: 100vh;
 }
 
@@ -139,6 +137,14 @@ nav a.active {
 .produto img {
     max-width: 180px;
     margin-bottom: 15px;
+}
+
+
+/* Delivery */
+
+.input{
+    text-align: center;
+    justify-content: center;
 }
 
 
